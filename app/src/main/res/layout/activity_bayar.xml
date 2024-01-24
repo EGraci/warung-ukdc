@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/bayar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PEMESANAN BERHASIL"
+        android:fontFamily="@font/regular_font"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:gravity="center" />
+
+
+    <TextView
+        android:id="@+id/paymentInstructionsContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Silahkan menuju ke kasir untuk melakukan pembayaran setelah melakukan pemesanan. Pastikan membawa bukti pemesanan atau nomor pesanan Anda. Terima kasih atas kunjungan Anda."
+        android:fontFamily="@font/poppins_regular"
+        android:padding="16dp"
+        android:gravity="center" />
+
+</LinearLayout>
