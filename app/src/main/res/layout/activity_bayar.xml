@@ -16,6 +16,17 @@
         android:textStyle="bold"
         android:padding="16dp"
         android:gravity="center" />
+    <TextView
+        android:id="@+id/id_pesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID Pesanan : "
+        android:fontFamily="@font/regular_font"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:gravity="center" />
 
 
     <TextView
@@ -26,5 +37,11 @@
         android:fontFamily="@font/poppins_regular"
         android:padding="16dp"
         android:gravity="center" />
+
+    <Button
+        android:id="@+id/nota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
 
 </LinearLayout>

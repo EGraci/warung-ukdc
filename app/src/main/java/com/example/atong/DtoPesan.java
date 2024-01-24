@@ -1,18 +1,9 @@
 package com.example.atong;
 
 public class DtoPesan {
-    private int id_pesan;
     private  int id_menu;
     private int qty;
     private int total;
-
-    public int getId_pesan() {
-        return id_pesan;
-    }
-
-    public void setId_pesan(int id_pesan) {
-        this.id_pesan = id_pesan;
-    }
 
     public int getId_menu() {
         return id_menu;
@@ -26,15 +17,25 @@ public class DtoPesan {
         return qty;
     }
 
-    public void setQty(int qty) {
-        this.qty = qty;
+    public void setQty(String qty) {
+        this.qty = idrToInt(qty);
     }
 
     public int getTotal() {
         return total;
     }
 
-    public void setTotal(int total) {
-        this.total = total;
+    public void setTotal(String total) {
+        this.total = idrToInt(total);
+    }
+    public static int idrToInt(String idrString) {
+        String[] parts = idrString.split(",");
+        String numericString = parts[0].replaceAll("[^\\d]", ""); // Remove non-numeric characters
+        try {
+            return Integer.parseInt(numericString);
+        } catch (NumberFormatException e) {
+            System.err.println("Invalid format for integer conversion: " + e.getMessage());
+            return -1;
+        }
     }
 }
