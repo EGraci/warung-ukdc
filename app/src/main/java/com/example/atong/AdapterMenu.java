@@ -46,7 +46,7 @@ public class AdapterMenu extends RecyclerView.Adapter<AdapterMenu.TampilanSet>{
                 pindah.putExtra("menu", menuItem.getMenu());
                 pindah.putExtra("gambar", menuItem.getGambar());
                 pindah.putExtra("harga", menuItem.getHarga());
-                pindah.putExtra("id_menu", menuItem.getId());
+                pindah.putExtra("id_menu", Integer.toString(menuItem.getId()));
                 ct.startActivity(pindah);
             }
         });
