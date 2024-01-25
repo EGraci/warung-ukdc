@@ -17,8 +17,8 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:text="Nama Menu"
-        android:textSize="24sp"
-        android:textStyle="bold"/>
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="24sp"/>
 
     <TextView
         android:id="@+id/harga_menu"
@@ -27,8 +27,8 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:text="Rp.000.0"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="24sp"/>
 
     <EditText
         android:id="@+id/jumlah_menu"
@@ -37,6 +37,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:ems="10"
+        android:fontFamily="@font/poppins_bold"
         android:inputType="number"/>
 
     <TextView
@@ -47,7 +48,7 @@
         android:layout_marginEnd="16dp"
         android:text="Rp.000.0"
         android:textSize="24sp"
-        android:textStyle="bold" />
+        android:fontFamily="@font/poppins_bold"/>
 
     <Button
         android:id="@+id/pesan"
@@ -55,5 +56,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:text="Button"/>
+        android:layout_marginTop="18dp"
+        android:text="Lanjutkan Pembayaran"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_bold"
+        android:backgroundTint="#40A2D8"/>
 </LinearLayout>

@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="PEMESANAN BERHASIL"
-        android:fontFamily="@font/regular_font"
+        android:fontFamily="@font/archivoblack_regular"
         android:textColor="@color/black"
         android:textSize="25sp"
         android:textStyle="bold"
@@ -20,8 +20,8 @@
         android:id="@+id/id_pesan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ID Pesanan : "
-        android:fontFamily="@font/regular_font"
+        android:text="ID PESANAN : "
+        android:fontFamily="@font/archivoblack_regular"
         android:textColor="@color/black"
         android:textSize="25sp"
         android:textStyle="bold"
@@ -33,15 +33,21 @@
         android:id="@+id/paymentInstructionsContent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Silahkan menuju ke kasir untuk melakukan pembayaran setelah melakukan pemesanan. Pastikan membawa bukti pemesanan atau nomor pesanan Anda. Terima kasih atas kunjungan Anda."
+        android:text="Pesanan Kamu sedang dibuat. Silahkan menuju ke kasir untuk melakukan pembayaran setelah melakukan pemesanan. Pastikan membawa bukti pemesanan atau nomor pesanan Anda. Terima kasih atas kunjungan Anda."
         android:fontFamily="@font/poppins_regular"
         android:padding="16dp"
         android:gravity="center" />
 
     <Button
         android:id="@+id/nota"
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="18dp"
+        android:text="Lanjutkan Pembayaran"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_bold"
+        android:backgroundTint="#40A2D8"/>
 
 </LinearLayout>

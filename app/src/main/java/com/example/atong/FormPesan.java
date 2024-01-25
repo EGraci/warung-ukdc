@@ -86,7 +86,7 @@ public class FormPesan extends AppCompatActivity {
         bayar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                sendPesan(id_menu, Integer.parseInt(String.valueOf(qty.getText())), idrToInt((String) total.getText()), idrToInt((String) harga.getText()), (String) menu.getText());
+                sendPesan(id_menu, Integer.parseInt(String.valueOf(qty.getText())), tagihan, idrToInt((String) harga.getText()), (String) menu.getText());
             }
         });
 
