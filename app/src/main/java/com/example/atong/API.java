@@ -6,9 +6,9 @@ public class API {
     private String nota;
 
     public API() {
-            this.menu = "http://android.dcinfor.org/menu";
-            this.peasan = "http://android.dcinfor.org/pesan";
-            this.nota = "http://android.dcinfor.org/nota";
+            this.menu = "https://android.dcinfor.org/menu";
+            this.peasan = "https://android.dcinfor.org/pesan";
+            this.nota = "https://android.dcinfor.org/nota";
     }
 
     public String getMenu() {
